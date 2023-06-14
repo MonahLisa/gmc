@@ -1,0 +1,42 @@
+body {
+  background-color: #fff;
+
+}
+
+main > .container{
+  min-height: 70vh;
+}
+
+
+.main-container {
+  width: 87.5%;
+  margin: 0 auto;
+}
+
+section{
+  margin-bottom: 10vh;
+}
+
+.icon-hover:hover{
+  opacity: 0.5;
+  -webkit-transition: color .5s ease;
+  -o-transition: color .5s ease;
+  transition: color .5s ease
+}
+
+
+.non-display{
+  display: none;
+}
+
+/*.bread-style{*/
+/*  background-color: var(--color-primary-background);*/
+/*}*/
+
+/*.bread-style > ol > li > a{*/
+/*  color: white;*/
+/*}*/
+
+/*.bread-style > ol > li.breadcrumb-item.active::before {*/
+/*  color: white;*/
+/*}*/

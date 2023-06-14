@@ -1,0 +1,149 @@
+:root {
+    --color-primary-background: #366AF3;
+    --color-primary-button: #366AF3;
+    --color-primary-product: #366AF3;
+    --color-primary-link: #366AF3;
+    --color-primary-button-text: white;
+
+    --color-dark-background: #333;
+    --color-light: #fff;
+
+
+
+    --color-last-news: #f9b234;
+    --color-primary-text: #222;
+    --color-secondary-product: #222;
+    --color-secondary-background: #ececec;
+    --color-background: #f1f1f1;
+    --color-secondary-button: var(--color-secondary-product);
+    --color-secondary-button-text: #fff;
+    --color-secondary-link: #015ccb;
+    --color-secondary-text: #222;
+    --color-gray: rgba(0,0,0,0.37);
+    --color-dark-gray: rgba(0,0,0,0.5);
+    --color-light-gray: rgba(0,0,0,0.2);
+
+
+
+    --scrollbar-width: 20px;
+    --section-gutters-lg-max: 64px;
+    --section-gutters-xs-max: 22px;
+    --section-gutters-xxs-max: 12px;
+    --section-gutters-lg-max-deprecated: 70px;
+    --section-gutters-xs-max-deprecated: 20px;
+    --card-spacer: var(--spacer-medium,40px);
+
+
+    --spacer-xsmall: 16px;
+    --spacer-small: 32px;
+    --spacer-medium: 40px;
+    --spacer-large: 48px;
+    --spacer-xlarge: 64px;
+    --spacer-xxlarge: 120px;
+
+
+
+    --xsmall-text: 14px;
+    --small-text: 16px;
+    --text: 18px;
+    --big-text: 24px;
+    --h3: 44px;
+    --h2: 52px;
+    --h1: 66px;
+    --mega-text: 120px;
+
+}
+
+
+@media screen and (max-width: 1199px){
+    :root {
+        --xsmall-text: 14px;
+        --small-text: 14px;
+        --text: 16px;
+        --big-text: 24px;
+        --h3: 32px;
+        --h2: 40px;
+        --h1: 56px;
+        --mega-text: 96px;
+
+        --spacer-small: 24px;
+        --spacer-medium: 32px;
+        --spacer-large: 40px;
+        --spacer-xlarge: 56px;
+        --spacer-xxlarge: 96px;
+    }
+}
+
+
+@media screen and (max-width: 979px){
+    :root {
+        --xsmall-text: 12px;
+        --small-text: 14px;
+        --text: 16px;
+        --big-text: 24px;
+        --h3: 24px;
+        --h2: 32px;
+        --h1: 48px;
+        --mega-text: 80px;
+
+
+        --spacer-xsmall: 8px;
+        --spacer-small: 16px;
+        --spacer-medium: 24px;
+        --spacer-large: 32px;
+        --spacer-xlarge: 48px;
+        --spacer-xxlarge: 80px;
+    }
+}
+
+
+
+@media screen and (max-width: 767px){
+    :root {
+        --xsmall-text: 12px;
+        --small-text: 12px;
+        --text: 14px;
+        --big-text: 20px;
+        --h3: 24px;
+        --h2: 28px;
+        --h1: 40px;
+        --mega-text: 72px;
+
+        --spacer-xlarge: 40px;
+        --spacer-xxlarge: 64px;
+    }
+}
+
+
+@media screen and (max-width: 460px){
+    :root {
+        --xsmall-text: 12px;
+        --small-text: 12px;
+        --text: 14px;
+        --big-text: 16px;
+        --h3: 24px;
+        --h2: 28px;
+        --h1: 40px;
+        --mega-text: 72px;
+
+        --spacer-xlarge: 40px;
+        --spacer-xxlarge: 64px;
+    }
+}
+
+@media screen and (max-width: 360px){
+    :root {
+        --xsmall-text: 12px;
+        --small-text: 12px;
+        --text: 12px;
+        --big-text: 14px;
+        --h3: 20px;
+        --h2: 24px;
+        --h1: 32px;
+        --mega-text: 48px;
+
+        --spacer-xlarge: 40px;
+        --spacer-xxlarge: 64px;
+    }
+}
+
